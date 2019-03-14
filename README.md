@@ -14,7 +14,8 @@ Ralin核心封装了sql2o,所以需要向你的java项目中导入ralin-1.0-SNAP
 当然Ralin也连接池`Ralin.open(datasource)`
 
 ### 定义模型(下面建立一个boy类用于说明api)
-```
+
+`
 import ralin.Model;
 public class boy extends Model{
     private int id;
@@ -25,16 +26,16 @@ public class boy extends Model{
         this.weight=weight;
         this.look=look;
     }}
-```getter,setter省略
+`getter,setter省略
 你需要使用Ralin进行增删查改的类需要继承Model类，同时需要注意的是类名默认和数据库table名一致，如果不一致使用注解`@Table(name="")`,同样的，属性也尽量和数据库中字段一致
 
 ### 添加
 `Ralin.insert(new boy(30,"handsome"))`,insert方法中参数是一个boy对象(如果不想注明id,则建表时就应该将其设置为递增)
 
-```
+`
 boy me=new boy(20,"nice");
 Ralin.insert(me).commit()
-```,注意要加上.commit()
+`,注意要加上.commit()
 
 ### 查询
 
