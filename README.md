@@ -9,7 +9,7 @@ Ralin核心封装了sql2o,所以需要向你的java项目中导入ralin-1.0-SNAP
 ### 打开数据库(以mysql为例)
 `        Ralin.open("jdbc:mysql://localhost:3306/practice","root","123456789");
 `
-如果报错，则切换mysql-connector-java版本或者在数据库名称后面加上`useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC`
+如果报错，则切换mysql-connector-java版本或者在数据库名称后面加上`?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC`
 
 当然Ralin也连接池`Ralin.open(datasource)`
 
