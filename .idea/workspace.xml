@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a9d7818-05e3-40fd-a18a-235c4dd02fbf" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ralin/query/QueryHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/handle/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/test/model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ralin-1.0-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ralin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ralin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sql2o-1.5.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/Delete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/query/Delete.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/Insert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/query/Insert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/Model.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/Ralin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/Ralin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/RalinUtils/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/RalinUtils/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/RalinUtils/handleAnno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/RalinUtils/handleAnno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/RalinUtils/handleRef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/RalinUtils/handleRef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/Select.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/query/Select.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/SqlHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/query/SqlHandle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ralin/Update.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ralin/query/Update.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/Delete.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/Insert.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ralin/Model.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/Ralin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ralin/Ralin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/Column.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/Column.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/handleAnno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/handleAnno.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/handleRef.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ralin/RalinUtils/handleRef.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/Select.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/SqlHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ralin/Update.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="25" selection-end-column="19" />
+            <state relative-caret-position="153">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -126,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ralin/Model.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -144,7 +110,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ralin/query/Update.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -154,7 +120,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="-744">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -194,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ralin/queryHandle.java" />
         <option value="$PROJECT_DIR$/src/main/java/ralin/QueryHandle.java" />
         <option value="$PROJECT_DIR$/src/main/java/ralin/SqlHandle.java" />
@@ -214,6 +179,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ralin/RalinUtils/handleAnno.java" />
         <option value="$PROJECT_DIR$/src/main/java/ralin/query/Insert.java" />
         <option value="$PROJECT_DIR$/src/main/java/ralin/query/SqlHandle.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -369,18 +335,18 @@
       <updated>1552551856252</updated>
       <workItem from="1552551860662" duration="1175000" />
       <workItem from="1552558295351" duration="1759000" />
-      <workItem from="1561430704083" duration="19925000" />
+      <workItem from="1561430704083" duration="20683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22859000" />
+    <option name="totallyTimeSpent" value="23617000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.43734843" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28617623" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -506,7 +472,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ralin/Model.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -571,7 +537,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ralin/query/Update.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -579,7 +545,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="-744">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
           </first_editor>
           <second_editor />
         </state>
@@ -587,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="25" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
