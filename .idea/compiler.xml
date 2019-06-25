@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ralin" target="11" />
+      <module name="ralin" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
