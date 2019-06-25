@@ -36,7 +36,6 @@ public class handleRef {
                 resultStr=resultStr+"'"+valueList.get(i)+"',";
             }
         }
-        System.out.println(resultStr);
     return resultStr;
     }
 }

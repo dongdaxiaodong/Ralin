@@ -1,6 +1,6 @@
 package ralin;
 
-import java.util.List;
+import ralin.query.SqlHandle;
 
 //这个类用于实现对具体实体类的操作(insert,upload,delete,select)
 //todo--keyWords have where,like,

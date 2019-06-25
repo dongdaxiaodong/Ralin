@@ -1,11 +1,15 @@
 package ralin;
 import org.sql2o.Sql2o;
+import ralin.query.Delete;
+import ralin.query.Insert;
+import ralin.query.Select;
+import ralin.query.Update;
 
 import javax.sql.DataSource;
 
 //todo----异常检测！！
 public class Ralin {
-    protected static Sql2o sql2o;
+    public static Sql2o sql2o;
     public static void open(String url,String name,String password){
         Ralin.sql2o=new Sql2o(url,name,password);
     }
@@ -31,8 +35,10 @@ public class Ralin {
             return startDelete;
         }
 
+
+        @SuppressWarnings("unchecked")
         public static <T extends Model> Insert insert(T type){
-            Insert startInsert=new Insert(type);
-            return startInsert;
+
+            return new Insert(type);
     }
 }
