@@ -44,10 +44,9 @@ public class handleAnno {
         }
         else {
             String toStringAnnotation=annotations[0].toString();
-            int fontIndex=toStringAnnotation.indexOf("(");
-            int lastIndex=toStringAnnotation.indexOf(")");
-            String anStr=toStringAnnotation.substring(fontIndex+1,lastIndex).split("=")[1];
-            anStr=anStr.substring(1,anStr.length()-1);
+            int fontIndex=toStringAnnotation.indexOf("=");
+            int lastIndex=toStringAnnotation.indexOf(",");
+            String anStr=toStringAnnotation.substring(fontIndex+2,lastIndex-1);
             return anStr;
         }
     }

@@ -19,11 +19,12 @@ public class Insert<T extends Model> {
         }
     }
     public void commit(){
-
         try {
             String insertStr=handleRef.returnSqlByRef(this.type);
             String finalStr=this.queryStr+insertStr;
+            System.out.println(finalStr);
             Insert.sqlHandle.insertCommit(finalStr);
+
         }
         catch (Exception e){
             System.out.println(e.toString());

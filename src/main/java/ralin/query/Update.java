@@ -20,7 +20,8 @@ public class Update {
             this.queryStr="update "+annoStr+" ";
         }
     }
-    public Update set(String field,String value){
+    public Update set(String field,Object fieldValue){
+        String value=String.valueOf(fieldValue);
 //        接下来需要判断以及切割
         if(this.queryStr.contains("where")){
             int indexWhere=this.queryStr.indexOf("where");
