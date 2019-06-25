@@ -1,15 +1,32 @@
-Ralin->一个简单实用的java数据库操作库
+Ralin->一个简单实用的java数据库单表操作库
 
-如何使用?
+如何使用? 创建一个maven项目 然后在pom.xml中放入下面的xml代码即可
 
-Ralin核心封装了sql2o,所以需要向你的java项目中导入ralin-1.0-SNAPSHOT.jar和sql2o-1.5.4.jar
+```
+<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://www.jitpack.io</url>
+		</repository>
+</repositories>
+
+<dependencies>
+<dependency>
+	    <groupId>com.github.dongdaxiaodong</groupId>
+	    <artifactId>Ralin</artifactId>
+	    <version>1.5</version>
+</dependency>
+</dependencies>
+
+```
 
 接着,就可以调用Ralin提供的api极其方便的进行增删查改了
 
-### 打开数据库(以mysql为例)
-`        Ralin.open("jdbc:mysql://localhost:3306/practice","root","123456789");
-`
-如果报错，则切换mysql-connector-java版本或者在数据库名称后面加上`?useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC`
+### 打开数据库(以mysql为例,数据库名为practice,密码为123456789)
+```
+Ralin.open("jdbc:mysql://localhost:3306/practice?useSSL=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC","root","123456789");
+```
+如果报错，可以切换mysql-connector-java版本
 
 当然Ralin也连接池`Ralin.open(datasource)`
 
