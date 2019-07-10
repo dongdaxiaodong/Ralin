@@ -125,3 +125,9 @@ Ralin的api设计和java8中stream的操作类似可以实现select(boy.class).w
             System.out.println(teacher.getId()+" and "+teacher.getName()+" and "+teacher.getCourse());
         }	
 ```
+
+### 关于bySql模块
+1. bySql()方法的参数是执行结果的返回类型
+2. bySql模块不支持同时获取多表的属性即(select t.id,s.name......)
+3. **如果使用bysql进行增，删，改，则将bySql()的参数设为null,Ralin.bySql(null).setSql(.....).setParam(...).commit()**
+4. 注意加上.commit()
