@@ -3,6 +3,7 @@ package ralin.query;
 import ralin.Model;
 import ralin.Ralin;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SqlHandle<T extends Model> {
@@ -26,6 +27,20 @@ public class SqlHandle<T extends Model> {
         List<T> firstResult=ralinCon.createQuery(queryStr).executeAndFetch(returnType);
         ralinCon.close();
         return (firstResult.size()==0)?null:firstResult.get(0);
+    }
+
+
+    public List<T> sqlCommit(Class returnType,String sql){
+        org.sql2o.Connection ralinCon=Ralin.sql2o.open();
+        List<T> firstResult=ralinCon.createQuery(sql).executeAndFetch(returnType);
+        ralinCon.close();
+        return firstResult;
+    }
+    public List<T> changeSqlCommit(String sql){
+        org.sql2o.Connection ralinCon=Ralin.sql2o.open();
+        ralinCon.createQuery(sql).executeUpdate();
+        ralinCon.close();
+        return new ArrayList<>();
     }
 
     public void updateCommit(String query,Class<T> returnType){

@@ -1,9 +1,6 @@
 package ralin;
 import org.sql2o.Sql2o;
-import ralin.query.Delete;
-import ralin.query.Insert;
-import ralin.query.Select;
-import ralin.query.Update;
+import ralin.query.*;
 
 import javax.sql.DataSource;
 
@@ -22,6 +19,11 @@ public class Ralin {
         startSelect.selectStart();
         return startSelect;
     }
+
+    public static BySql bySql(Class returnType){
+        return new BySql(returnType);
+    }
+
 
     public static Update update(Class<? extends Model> returnType){
         Update startUpdate=new Update(returnType);
