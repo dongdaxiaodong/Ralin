@@ -1,4 +1,8 @@
-## Ralin : 一个简单实用的java数据库单表操作库
+## Ralin : 一个简单实用的java数据库操作库
+
+### 特性
+1. 单表操作不写sql语句
+2. 优化多表操作时设置参数的编码体验以及优化返回结果集
 
 如何使用? 创建一个maven项目 然后在pom.xml中放入下面的xml代码即可
 
@@ -29,6 +33,16 @@ Ralin.open("jdbc:mysql://localhost:3306/practice?useSSL=true&useUnicode=true&use
 如果报错，可以切换mysql-connector-java版本
 
 当然Ralin也连接池`Ralin.open(datasource)`
+```
+DruidDataSource dataSource = new DruidDataSource();
+dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+ 
+dataSource.setUrl("jdbc:mysql://localhost:3306/testralin?useSSL=true&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC");
+ 
+dataSource.setUsername("root");
+dataSource.setPassword("123456789");
+Ralin.open(dataSource);
+```
 
 ### 定义模型(下面建立两个模型用于说明api)
 
@@ -47,8 +61,6 @@ public class Teacher extends Model{
 	this.course;
     }
 }
-
-
 
 --Student.java
 import ralin.Model;
