@@ -32,7 +32,7 @@ Ralin.open("jdbc:mysql://localhost:3306/practice?useSSL=true&useUnicode=true&use
 ```
 如果报错，可以切换mysql-connector-java版本
 
-当然Ralin也连接池`Ralin.open(datasource)`
+当然Ralin也可以连接数据库连接池`Ralin.open(datasource)`,下面以阿里巴巴开源的druid为例,实际使用注意修改数据库名称和密码
 ```
 DruidDataSource dataSource = new DruidDataSource();
 dataSource.setDriverClassName("com.mysql.jdbc.Driver");
